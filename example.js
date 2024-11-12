@@ -8,7 +8,7 @@ console.log(colors.length - 1)
 console.log(colors[0])
 console.log(colors[colors.length - 1])
 
-//add new element
+
 //mix of int ans string 
 let array = [5, 6, 7, 8, 'a', "sudharshini", [100, 200]]
 console.log(array)
@@ -86,3 +86,24 @@ console.log(word)
 let arrayy = ['sudharshini', 'sudha']
 arrayy.reverse()
 console.log(arrayy)
+
+//join - converts array to string
+
+let str = arrayy.join()
+console.log(str)
+
+let string = word.join()
+console.log(string)
+
+let example = [100, 200, 300, 400]
+let conver = example.join()
+console.log(conver)
+
+//convert string to array 
+
+let stringg = "a,b,c,d"
+let converting = stringg.split(',')
+console.log(stringg)
+
+let stringgg = ("Sudharshini")
+console.log(stringgg.split("s"))
