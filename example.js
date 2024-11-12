@@ -70,3 +70,19 @@ console.log(array1)
 // add x,y also
 array1.splice(1, 2, 'x', 'y')
 console.log(array1)
+
+//slice
+
+let word = ['a', 'b', 'c', 'd', 'e']
+    //console.log(word.splice(1, 2))
+    //console.log(word.splice(1, 3))
+
+//array reverse
+word.reverse()
+console.log(word)
+
+//try my name to reverse
+
+let arrayy = ['sudharshini', 'sudha']
+arrayy.reverse()
+console.log(arrayy)
