@@ -107,3 +107,16 @@ console.log(stringg)
 
 let stringgg = ("Sudharshini")
 console.log(stringgg.split("s"))
+
+
+//concat and spread operator
+let firstArr = [1, 2, 3];
+let secondArr = [4, 5, 6]
+    //let jointArr = [firstArr, secondArr]
+    //console.log(jointArr)
+
+let jointArr = firstArr.concat(secondArr)
+console.log(jointArr)
+
+let joined = [...firstArr, ...secondArr]
+console.log(joined)
