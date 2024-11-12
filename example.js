@@ -28,3 +28,45 @@ console.log(mix[0])
 console.log(mix[0][1])
 console.log(mix[1][2])
 console.log(mix[2], [1])
+
+
+// array methods
+let arr = ['a', 'b', 'c', 'd', 'e']
+console.log(arr)
+
+//add elements
+arr.push('f')
+console.log(arr)
+
+//add the element on middle
+
+arr.push('sudharshini')
+console.log(arr)
+
+// pop -removes elements 
+console.log(arr.pop())
+console.log(arr)
+
+//removes element from start of the array and returns removed value
+arr.shift('a')
+console.log(arr)
+
+//splice
+let array1 = ['a', 'b', 'c', 'd', 'e']
+    //array1.splice(2, 1)
+    //console.log(array1)
+
+array1.splice(2, 2)
+console.log(array1)
+
+//delete a element and also replace a new element  
+array1.splice(1, 1, 'm')
+console.log(array1)
+
+// no need to delete any elements
+array1.splice(1, 0, 'sudharshini')
+console.log(array1)
+
+// add x,y also
+array1.splice(1, 2, 'x', 'y')
+console.log(array1)
