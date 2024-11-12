@@ -24,3 +24,7 @@ let mix = [
     [7, 8, 9]
 ]
 console.log(mix)
+console.log(mix[0])
+console.log(mix[0][1])
+console.log(mix[1][2])
+console.log(mix[2], [1])
