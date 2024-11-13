@@ -92,6 +92,9 @@ console.log(arrayy)
 let str = arrayy.join()
 console.log(str)
 
+let string1 = array.join()
+console.log(string1)
+
 let string = word.join()
 console.log(string)
 
@@ -104,6 +107,10 @@ console.log(conver)
 let stringg = "a,b,c,d"
 let converting = stringg.split(',')
 console.log(stringg)
+
+let string2 = "sudharshini"
+let array2 = string2.split(",")
+console.log(string2)
 
 let stringgg = ("Sudharshini")
 console.log(stringgg.split("s"))
